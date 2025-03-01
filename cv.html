@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=lato:100,300,400,700,900" rel="stylesheet" />
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-clifford: #da373d;
+        }
+        
+        @layer base {
+            body {
+                @apply bg-slate-300 dark:bg-slate-800 text-slate-800 dark:text-slate-300;
+                font-size: 16px;
+                font-family: 'Lato', sans-serif;
+            }
+            h1, h2, h3 {
+                font-weight: bold;
+            }
+            h1 {
+                @apply text-3xl pb-4 mt-5 mb-3;
+            }
+            h2 {
+                @apply text-2xl pb-4 mt-5 mb-3;
+            }
+            h3 {
+                @apply text-xl mt-5 mb-3;
+            }
+            blockquote {
+                @apply text-slate-600 dark:text-slate-400 border-l-5 border-slate-500;
+                padding-left: 1.5em;
+            }
+            ul {
+                @apply list-none list-inside ps-10 space-y-1;
+            }
+            a {
+                @apply text-blue-500;
+            }
+        }
+
+        @layer components {
+            .md, .separator {
+                @apply text-slate-400;
+            }
+
+            .separator {
+                @apply my-4;
+            }
+        }
+    </style>
+</head>
+<body>
+<main class="container mx-auto p-6">
+    <h1>
+        <span class="md">#</span> 📄 Curriculum di Samuel Bellamacina
+    </h1>
+    <h2>
+        <span class="md">##</span> 📧 Contatti
+    </h2>
+    <p>
+        <b>**Email:**</b> samubella@gmail.com<br>
+        <b>**Telefono:**</b> +39 347 46 70 699<br>
+        <b>**LinkedIn:**</b> [<a href="https://linkedin.com/in/samubella" target="_blank">linkedin.com/in/samubella</a>](https://linkedin.com/in/samubella)<br>
+        <b>**GitHub:**</b> [<a href="https://github.com/Rattone" target="_blank">github.com/Rattone</a>](https://github.com/Rattone)<br>
+    </p>
+
+    <div class="separator">------------------</div>
+
+    <h2>
+        <span class="md">##</span> 🎯 Obiettivo Professionale
+    </h2>
+    <blockquote>
+        > Esperto sviluppatore web con 10+ anni di esperienza in Laravel e tecnologie frontend. Cerco nuove sfide in
+        ambito full-stack con focus su architetture scalabili e moderne.
+    </blockquote>
+
+    <div class="separator">------------------</div>
+
+    <h2>
+        <span class="md">##</span> 🧑‍💻 Esperienza Lavorativa
+    </h2>
+    <h3>
+        <span class="md">###</span> <b>**Senior Web Developer**</b> @ LSWR Group
+    </h3>
+    <i>_Aprile 2022 - Presente_</i>
+    <br><br>
+    <ul>
+        <li>
+            - Progettazione e sviluppo di applicazioni web complesse
+        </li>
+        <li>
+            - Utilizzo di <b>**Laravel**</b>, <b>**Livewire**</b> e <b>**Alpine.js**</b>
+        </li>
+        <li>
+            - Creazione di API REST e documentazione con OpenAPI
+        </li>
+        <li>
+            - Mentoring per sviluppatori junior
+        </li>
+    </ul>
+
+    <h3>
+        <span class="md">###</span> <b>**Web Developer**</b> @ Sprea SpA
+    </h3>
+    <i>_Maggio 2019 – Novembre 2021_</i>
+    <br><br>
+    <ul>
+        <li>
+            - Sviluppo siti e piattaforme e-commerce
+        </li>
+        <li>
+            - Personalizzazione temi WordPress e plugin
+        </li>
+        <li>
+            - Configuratori preventivi
+        </li>
+    </ul>
+
+    <h3>
+        <span class="md">###</span> <b>**Web Developer**</b> @ d’Arco Italia Srl
+    </h3>
+    <i>_Gennaio 2017 – Marzo 2019_</i>
+    <br><br>
+    <ul>
+        <li>
+            - Sviluppo siti e piattaforme e-commerce
+        </li>
+        <li>
+            - Personalizzazione temi WordPress e plugin
+        </li>
+        <li>
+            - Configuratori preventivi
+        </li>
+    </ul>
+
+    <h3>
+        <span class="md">###</span> <b>**Web Developer**</b> @ BMFactory
+    </h3>
+    <i>_Maggio 2012 – Dicembre 2016_</i>
+    <br><br>
+    <ul>
+        <li>
+            - Sviluppo siti e piattaforme e-commerce
+        </li>
+        <li>
+            - Personalizzazione temi WordPress e plugin
+        </li>
+        <li>
+            - Configuratori preventivi
+        </li>
+    </ul>
+
+    <div class="separator">------------------</div>
+
+    <h2>
+        <span class="md">##</span> 🛠️ Competenze Tecniche
+    </h2>
+    <ul>
+        <li>
+            - <b>**Linguaggi:**</b> PHP 5+, JavaScript, HTML, CSS
+        </li>
+        <li>
+            - <b>**Framework Backend:**</b> Yii, Laravel (5+)
+        </li>
+        <li>
+            - <b>**Framework Frontend:**</b> Livewire, Vue.js, Alpine.js
+        </li>
+        <li>
+            - <b>**CSS Frameworks:**</b> Tailwind 3/4, Bootstrap 2/3/4/5
+        </li>
+        <li>
+            - <b>**Database:**</b> MySQL, PostgreSQL
+        </li>
+        <li>
+            - <b>**Tools:**</b> Git, Docker, Composer, NPM, Figma, Adobe XD
+        </li>
+        <li>
+            - <b>**Cloud:**</b> AWS, DigitalOcean
+        </li>
+    </ul>
+
+    <div class="separator">------------------</div>
+
+    <h2>
+        <span class="md">##</span> 🏅 Certificazioni
+    </h2>
+    <ul>
+        <li>
+            - Laravel Certified Developer (2023)
+        </li>
+        <li>
+            - AWS Certified Developer - Associate (2022)
+        </li>
+    </ul>
+
+    <div class="separator">------------------</div>
+
+    <h2>
+        <span class="md">##</span> 🌐 Lingue
+    </h2>
+    <ul>
+        <li>
+            - Italiano: Madrelingua
+        </li>
+        <li>
+            - Inglese: Avanzato (C1)
+        </li>
+    </ul>
+
+    <div class="separator">------------------</div>
+
+    <h2>
+        <span class="md">##</span> 💡 Progetti Personali
+    </h2>
+    <h3>
+        <span class="md">###</span> <b>**Chat in tempo reale per eventi live**</b>
+    </h3>
+    <ul>
+        <li>
+            - Realizzata con <b>**Laravel**</b>, <b>**Livewire**</b>, <b>**WebSockets**</b>
+        </li>
+        <li>
+            - Permette chat pubbliche e private durante dirette streaming
+        </li>
+    </ul>
+
+    <h3>
+        <span class="md">###</span> <b>**Portale didattico per scuole superiori**</b>
+    </h3>
+    <ul>
+        <li>
+            - Gestione corsi, compiti, valutazioni
+        </li>
+        <li>
+            - Integrazione <b>**Filament**</b> per il pannello amministrativo
+        </li>
+    </ul>
+
+    <div class="separator">------------------</div>
+
+    <h2>
+        <span class="md">##</span> 📄 Note Aggiuntive
+    </h2>
+    <blockquote>
+        > Disponibile a trasferte e relocation. Appassionato di snowboard e videogiochi.
+    </blockquote>
+
+    <div class="separator">------------------</div>
+
+    <h3>
+        <span class="md">###</span> 📬 <a href="#">Clicca qui</a> per scaricare il curriculum in PDF (senza emoji).
+    </h3>
+</main>
+</body>
+</html>
